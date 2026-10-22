@@ -1,27 +1,26 @@
-# AI-soc investigation
+ AI-soc investigation
 AI-assisted SOC investigation and security alert automation using n8n and OpenAI
-# AI-SOC-Investigation
 
-## Project Overview
+ Project Overview
 
 AI-SOC-Investigation is a cybersecurity automation project designed to help security analysts investigate security alerts using n8n and AI.
 
 The workflow connects automated steps to process security-related information and generate investigation results.
 
-## Objectives
+ Objectives
 
 * Automate parts of the security investigation process.
 * Analyze security alerts using AI.
 * Reduce repetitive manual investigation tasks.
 * Present investigation results in a structured format.
 
-## Technologies Used
+ Technologies Used
 
 * n8n — Workflow automation
 * AI integration — Security alert analysis
 * GitHub — Version control and project documentation
 
-## Workflow
+ Workflow
 
 1. Receive or trigger an investigation request.
 2. Process the available security information.
@@ -31,7 +30,7 @@ The workflow connects automated steps to process security-related information an
 
 *Note: The steps above describe the intended workflow. Actual functionality depends on the nodes configured in the exported workflow.*
 
-## How to Use
+ How to Use
 
 1. Download the exported n8n workflow JSON file from this repository.
 2. Open your n8n instance.
@@ -41,10 +40,32 @@ The workflow connects automated steps to process security-related information an
 6. Execute the workflow using its configured trigger.
 7. Review the investigation output.
 
-## Security Notice
+ Security Notice
 
 Do not upload API keys, passwords, access tokens, private security logs, or other sensitive information to GitHub.
 
-## Project Status
+ Project Status
 
 Prototype — further testing and improvements may be added.
+Project Screenshots
+
+ 1. Workflow Overview
+
+The complete n8n workflow showing the connections between security log input, AI investigation, and email notifications.
+
+ 2. Security Log Input
+
+Sample security logs used to test the investigation workflow.
+
+ 3. AI Investigation Report
+
+The AI-generated report highlighting suspicious activity, evidence, potential threats, and recommended actions.
+
+ 4. Email Alert
+
+The investigation report delivered through email after workflow execution.
+
+ 5. GitHub Repository
+
+The repository structure containing the workflow export, documentation, and project screenshots.
+
